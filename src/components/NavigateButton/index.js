@@ -2,7 +2,7 @@ import {Button} from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useNavigate } from "react-router-dom";
 
-export const CustomButton = (props) => {
+export const NavigateButton = (props) => {
 
   const navigate = useNavigate();
 
