@@ -20,10 +20,9 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/signin" element={<SignIn/>} />
         <Route path="/signup" element={<SignUp/>} />
-        <Route path='/settings' element={<Settings/>}>
-          <Route path='edit' element={<UserUpdate/>}/>
-          <Route path='password' element={<UserUpdate/>}/>
-        </Route>
+        <Route path='/settings' element={<Settings/>}/>
+        <Route path='/settings/edit' element={<UserUpdate/>}/>
+        <Route path='/settings/password' element={<UserUpdate/>}/>
         <Route path='/home' element={<Home/>}>
             <Route path="photos" element={<Photos/>} />
             <Route path="albums" element={<Albums/>} />

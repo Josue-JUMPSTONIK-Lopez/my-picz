@@ -32,8 +32,7 @@ export const Home = () => {
             </Stack>
           </Box>
           <Box sx={styles.ProfileActionFunction}>
-            <NavigateButton btnColor1='#555564' btnColor2='#2B2C39' width='50%' content='settings profile' path='/settings'/>
-            <Button variant='contained' size='large' sx={{backgroundColor: 'red', width: '50%'}}>delete</Button>
+            <NavigateButton btnColor1='#555564' btnColor2='#2B2C39' width='50%' content='settings profile ⚙️' path='/settings'/>
           </Box>
           <Box sx={styles.ProfileBottomContainer}>
             <Link className="link" role="button" to="/home/photos"> Photos</Link>

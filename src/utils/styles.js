@@ -101,6 +101,8 @@ export const styles={
         width: '100%',
         display: 'flex',
         position: 'absolute',
+        justifyContent: 'center',
+        alignItems: 'center',
         bottom: '40px',
         left: '0'
     },
