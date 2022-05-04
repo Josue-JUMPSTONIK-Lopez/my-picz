@@ -4,6 +4,7 @@ import { styles } from '../../utils/styles';
 import { NavigateButton } from '../../components/NavigateButton';
 
 export const Settings = () => {
+    
   return (
     <Container>
         <Box sx={styles.EditUserInfo}>

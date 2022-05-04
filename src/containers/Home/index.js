@@ -28,7 +28,7 @@ export const Home = () => {
           <Box sx={styles.ProfileDescriptionContainer}>
             <Stack spacing={1}>
               <h3 className='text-white'>Description</h3>
-              <p className='text-white'>The diagnosis of schizophrenia stuck for a while, despite not being an accurate description of his behavior, although later writers would drop it and go back to the idea that these identities were costumes to be picked up and put down at will. todos los dias es una oportunidad para reflexionar en por que creemos lo que creemos y cuestionarno si lo que sabemos nos hace hacer lo correcto o incorrecto</p>
+              <p className='text-white'>todos los dias es una oportunidad para reflexionar en por que creemos lo que creemos y cuestionarnos si lo que sabemos nos hace hacer lo correcto o incorrecto. No existe la naturaleza humana.</p>
             </Stack>
           </Box>
           <Box sx={styles.ProfileActionFunction}>
