@@ -24,16 +24,14 @@ export const UserUpdate = () => {
             <TextField
               required
               id="filled-required"
-              label="Required"
-              defaultValue="Name"
+              label="Name"
               variant="filled"
               sx={{width: '100%'}}
             />
             <TextField
               required
               id="filled-required"
-              label="Required"
-              defaultValue="Username"
+              label="Username"
               variant="filled"
               sx={{width: '100%'}}
             />
