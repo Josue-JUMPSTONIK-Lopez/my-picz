@@ -17,7 +17,7 @@ export const SignIn = () => {
         <NavigateButton btnColor1='#7D506B' btnColor2='#906D89' content='return' path='/'/>
       </Box>
       
-      <Box sx={styles.Form}>
+      <Box sx={styles.SignForm}>
         <Typography variant='h5'>Login to your account</Typography>
         <FormInputField htmlfor='username' labelContent='Username' type='text' describedby='username-text'></FormInputField>
         <FormInputField htmlfor='password' labelContent='Password' type='password' describedby='password-text'></FormInputField>

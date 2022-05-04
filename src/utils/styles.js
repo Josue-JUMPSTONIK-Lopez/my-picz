@@ -23,7 +23,7 @@ export const styles={
         backgroundImage: 'radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px)',
         backgroundSize: '10px 10px',
     },
-    Form:{
+    SignForm:{
         backgroundColor: '#fafafe',
         borderRadius: '10px',
         margin: '40px',
@@ -118,5 +118,36 @@ export const styles={
         backgroundColor: '#000',
         padding: '10px',
         overflow: 'scroll',
-    }
+    },
+    EditUserInfo:{
+        width: '100%',
+        height: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#e5e5f7',
+        opacity: '0.8',
+        backgroundImage: 'radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px)',
+        backgroundSize: '10px 10px',
+    },
+    Form:{
+        backgroundColor: '#fafafe',
+        borderRadius: '10px',
+        margin: '40px',
+        padding: '25px 20px 10px',
+        boxShadow: '0 5px 15px rgba(0, 0, 0, 0.2)',
+        boxSizing: 'border-box',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        gap: '30px'
+    },
+    btnReturnEditUser:{
+        alignSelf: 'start',
+        position: 'relative',
+        top: '-10px',
+        left: '0px'
+    },
 }

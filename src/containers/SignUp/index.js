@@ -15,7 +15,7 @@ export const SignUp = () => {
       <NavigateButton btnColor1='#7D506B' btnColor2='#906D89' content='return' path='/'/>
     </Box>
 
-      <Box sx={styles.Form}>
+      <Box sx={styles.SignForm}>
         <Typography variant='h5'>Create your new account</Typography>
         <FormInputField htmlfor='name' labelContent='Name' type='text' describedby='name-text'></FormInputField>
         <FormInputField htmlfor='username' labelContent='Username' type='text' describedby='username-text'></FormInputField>
