@@ -9,12 +9,13 @@ export const NavigateButton = (props) => {
     const ColorButton = styled(Button)(({ theme }) => ({
         color: '#FFF',
         backgroundColor: `${props.btnColor1}`,
+        width: props.width,
         '&:hover': {
             backgroundColor: `${props.btnColor2}`,
         },
       }));
   return (
-    <ColorButton variant='contained' size='large' onClick={() => navigate(props.path)}>{props.content}</ColorButton>
+    <ColorButton  size='large' onClick={() => navigate(props.path)}>{props.content}</ColorButton>
   )
 }
 //#FFD5EC

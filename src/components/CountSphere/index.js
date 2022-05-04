@@ -1,22 +1,13 @@
 import { Box } from '@mui/system'
 import React from 'react'
+import { styles } from '../../utils/styles'
 
 export const CountSphere = (props) => {
   return (
     <Box
-    sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '25px'
-    }}>
-        <p style={{
-            color: 'white'
-        }}>{props.count}</p>
-        <p style={{
-            color: 'white'
-        }}>{props.stat}</p>
+    sx={styles.CountSphereContainer}>
+        <p style={styles.CountSphereContent}>{props.count}</p>
+        <p style={styles.CountSphereContent}>{props.stat}</p>
     </Box>
   )
 }

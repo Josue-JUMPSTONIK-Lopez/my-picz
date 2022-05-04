@@ -53,6 +53,17 @@ export const styles={
         justifyContent: 'space-around',
         gap: '40px'
     },
+    CountSphereContainer:{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '25px'
+    },
+    CountSphereContent:{
+        color: 'white',
+        fontSize: '1.5rem'
+    },
     HomeContainer:{
         width: '100%',
         height: '100vh',
@@ -65,12 +76,13 @@ export const styles={
     },
     HomeHeaderContainer:{
         width: '100%',
-        height: '30vh',
+        height: '35vh',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
         backgroundColor: '#000',
         padding: '10px',
+        // gap: '5px'
     },
     ProfileStatsContainer:{
         display: 'flex',
@@ -83,26 +95,28 @@ export const styles={
         height: 88
     },
     ProfileDescriptionContainer:{
-        marginTop: '10px',
         widows: '100%'
     },
     ProfileActionFunction:{
         width: '100%',
         display: 'flex',
+        position: 'absolute',
+        bottom: '40px',
+        left: '0'
     },
     ProfileBottomContainer:{
         display: 'flex',
+        justifyContent: 'center',
         width: '100%',
         position: 'absolute',
-        bottom: '0'
+        bottom: '-10px',
+        left: '0'
     },
     HomeGridContainer:{
         width: '100%',
-        height: '70vh',
+        height: '65vh',
         backgroundColor: '#000',
         padding: '10px',
-        overflow: 'scroll'
+        overflow: 'scroll',
     }
-
-
 }
