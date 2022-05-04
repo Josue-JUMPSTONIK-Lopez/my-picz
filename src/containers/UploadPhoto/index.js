@@ -9,7 +9,6 @@ import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
 import { dummyAlbums } from '../../utils/dummyData';
 
-
 export const UploadPhoto = () => {
     return (
         <Container>
@@ -29,11 +28,7 @@ export const UploadPhoto = () => {
                 variant="filled"
                 sx={{width: '100%'}}
                 />
-                <Box sx={{
-                    width: '400px',
-                    height: '200px',
-                    overflow: 'scroll'
-                }}>
+                <Box sx={styles.OptionsUploadPhotos}>
                     <List dense sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                         {dummyAlbums.map((value) => {
                             const labelId = `checkbox-list-secondary-label-${value.id}`;
@@ -47,7 +42,7 @@ export const UploadPhoto = () => {
                                 />
                                 }
                                 disablePadding
-                            >
+                                >
                                 <ListItemButton>
                                 <ListItemText id={labelId} primary={value.name} />
                                 </ListItemButton>

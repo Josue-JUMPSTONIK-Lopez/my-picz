@@ -28,11 +28,7 @@ export const NewAlbum = () => {
                 variant="filled"
                 sx={{width: '100%'}}
                 />
-                <Box sx={{
-                    width: '400px',
-                    height: '400px',
-                    overflow: 'scroll'
-                }}>
+                <Box sx={styles.OptionsNewAlbum}>
                     <List dense sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                         {dummyData.map((value) => {
                             const labelId = `checkbox-list-secondary-label-${value.id}`;

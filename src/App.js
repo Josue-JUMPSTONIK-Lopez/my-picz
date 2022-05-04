@@ -34,9 +34,7 @@ function App() {
         <Route path='/creates' element={<Creates/>}/>
         <Route path='/creates/photo' element={<UploadPhoto/>}/>
         <Route path='/creates/album' element={<NewAlbum/>}/>
-        <Route path='/creates/addPhoto' element={<PasswordChange/>}/>
       </Routes>
-      
     </Container>
   );
 }

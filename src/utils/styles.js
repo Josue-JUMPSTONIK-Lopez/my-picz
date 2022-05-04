@@ -152,4 +152,14 @@ export const styles={
         top: '-10px',
         left: '0px'
     },
+    OptionsUploadPhotos:{
+        width: '400px',
+        height: '200px',
+        overflow: 'scroll'
+    },
+    OptionsNewAlbum:{
+        width: '400px',
+        height: '400px',
+        overflow: 'scroll'
+    }
 }
