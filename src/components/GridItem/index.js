@@ -9,18 +9,14 @@ export const GrindItem = (props) => {
         width: '100%',
         height: '100%',
         color: theme.palette.text.secondary,
-        background: '#000'
+        background: '#000',
+        overflow: 'hidden'
       }));
 
   return (
     <Grid item xs={1} sm={2} md={3}>
         <Item>
-            <img 
-                style={{width: '100%', height: '200px', margin:'0'}} 
-                src={props.img}
-                alt={props.description}
-                onClick={props.navigate}
-                />
+            {props.children}
         </Item>
     </Grid>
   )

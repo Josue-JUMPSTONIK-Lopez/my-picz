@@ -7,11 +7,12 @@ import { styles } from '../../utils/styles'
 import './styles.css';
 import { NavigateButton } from '../../components/NavigateButton'
 import { useParams } from 'react-router';
-
+import { useNavigate } from "react-router-dom";
 // https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE.jpg
 export const Home = () => {
   // const {id} = useParams();
   //   console.log(id)
+  const navigate = useNavigate();
 
   return (
     <Container>
@@ -44,7 +45,7 @@ export const Home = () => {
           <Outlet/>
         </Box>
       </Box>
-      <button className="float">
+      <button className="float" onClick={()=> navigate('/creates')}>
         <i className="my-float">+</i>
       </button>
     </Container>

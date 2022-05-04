@@ -12,6 +12,7 @@ import { UserUpdate} from './containers/UserUpdate'
 import { Posts} from './containers/Posts'
 import { Settings} from './containers/Settings'
 import { PasswordChange } from './containers/PasswordChange'
+import { Creates } from './containers/Creates';
 
 function App() {
   return (
@@ -20,14 +21,17 @@ function App() {
         <Route path="/" element={<Main/>} />
         <Route path="/signin" element={<SignIn/>} />
         <Route path="/signup" element={<SignUp/>} />
-        <Route path='/settings' element={<Settings/>}/>
-        <Route path='/settings/edit' element={<UserUpdate/>}/>
-        <Route path='/settings/password' element={<PasswordChange/>}/>
         <Route path='/home' element={<Home/>}>
             <Route path="photos" element={<Photos/>} />
             <Route path="albums" element={<Albums/>} />
             <Route path="posts/:id" element={<Posts/>} />
         </Route>
+        <Route path='/settings' element={<Settings/>}/>
+        <Route path='/settings/edit' element={<UserUpdate/>}/>
+        <Route path='/settings/password' element={<PasswordChange/>}/>
+        <Route path='/creates' element={<Creates/>}/>
+        <Route path='/creates/photo' element={<UserUpdate/>}/>
+        <Route path='/creates/album' element={<PasswordChange/>}/>
       </Routes>
       
     </Container>

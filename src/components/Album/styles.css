@@ -1,0 +1,49 @@
+.container{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-box {
+	position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.first-box {
+    width: 80px;
+    height: 80px;
+    background: url(https://www.befunky.com/images/prismic/39a0bc4d-75d9-46d8-87ff-eb9c2fc22e37_how-to_photo-editor-4.svg);
+    background-repeat: no-repeat;
+  	background-size: 110px;
+    position: absolute;
+    border: 3px solid #775B00;
+}
+
+.second-box {
+    width: 80px;
+    height: 80px;
+    background: url(https://www.befunky.com/images/prismic/f1512b68-682a-4fec-8f9d-05e0385d0a48_how-to_photo-editor-2.svg);
+    background-repeat: no-repeat;
+  	background-size: 110px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 3px solid #775B00;
+}
+
+.third-box {
+    width: 80px;
+    height: 80px;
+    background: url(https://img3.exportersindia.com/product_images/bc-full/2021/1/4643548/photo-negative-scanning-services-1611815826-5704098.jpeg);
+    background-repeat: no-repeat;
+  	background-size: 91px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 3px solid #775B00;
+}
+
+.album-name{
+  color: white;
+}
