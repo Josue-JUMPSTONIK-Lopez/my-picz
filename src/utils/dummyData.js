@@ -160,3 +160,23 @@ export const dummyData = [
         description: 'hello'
     }
 ]
+
+export const dummyAlbums = [
+    {
+        name: "last days of summer",
+        photos:[]
+    },
+    {
+        name: "Family",
+        photos:[]
+    },
+    {
+        name: "BF & GF",
+        photos:[]
+    },
+    {
+        name: "Friends",
+        photos:[]
+    }
+
+]

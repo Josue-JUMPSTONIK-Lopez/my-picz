@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormControl, InputLabel, Input, FormHelperText, FormLabel} from '@mui/material';
+import { FormControl, InputLabel, Input, FormHelperText} from '@mui/material';
 
 export const FormInputField = (props) => {
   return (

@@ -1,17 +1,15 @@
-import { Box, Container, Avatar, Stack, Button} from '@mui/material'
+import { Box, Container, Avatar, Stack} from '@mui/material'
 import React from 'react'
 import { CountSphere } from '../../components/CountSphere'
 import { dummyData } from '../../utils/dummyData'
 import { Link, Outlet} from "react-router-dom";
 import { styles } from '../../utils/styles'
 import './styles.css';
-import { NavigateButton } from '../../components/NavigateButton'
-import { useParams } from 'react-router';
+import { NavigateButton } from '../../components/NavigateButton';
 import { useNavigate } from "react-router-dom";
 // https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE.jpg
 export const Home = () => {
-  // const {id} = useParams();
-  //   console.log(id)
+
   const navigate = useNavigate();
 
   return (

@@ -13,6 +13,8 @@ import { Posts} from './containers/Posts'
 import { Settings} from './containers/Settings'
 import { PasswordChange } from './containers/PasswordChange'
 import { Creates } from './containers/Creates';
+import { UploadPhoto } from './containers/UploadPhoto';
+import { NewAlbum } from './containers/NewAlbum';
 
 function App() {
   return (
@@ -30,8 +32,9 @@ function App() {
         <Route path='/settings/edit' element={<UserUpdate/>}/>
         <Route path='/settings/password' element={<PasswordChange/>}/>
         <Route path='/creates' element={<Creates/>}/>
-        <Route path='/creates/photo' element={<UserUpdate/>}/>
-        <Route path='/creates/album' element={<PasswordChange/>}/>
+        <Route path='/creates/photo' element={<UploadPhoto/>}/>
+        <Route path='/creates/album' element={<NewAlbum/>}/>
+        <Route path='/creates/addPhoto' element={<PasswordChange/>}/>
       </Routes>
       
     </Container>
